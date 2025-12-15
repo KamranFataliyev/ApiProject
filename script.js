@@ -18,7 +18,7 @@ let from = "RUB";
 let to = "USD";
 let selected = "input1";
 
-const key = "24f33bc9ba8a193e603b30b2d531a33c";
+const key = "41f56b15a2907880552b1f44ed4e2c28";
 
 function convert(from, to, total) {
   if (from === to) {
@@ -213,4 +213,5 @@ function internetYoxlama() {
 }
 window.addEventListener("offline", internetYoxlama);
 window.addEventListener("online", internetYoxlama);
+
 internetYoxlama();
